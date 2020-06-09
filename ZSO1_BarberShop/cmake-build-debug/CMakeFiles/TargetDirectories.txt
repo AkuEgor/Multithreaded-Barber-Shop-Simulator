@@ -1,0 +1,3 @@
+/Users/Egor/Desktop/Sleeping-Barber---Mutex-and-Conditional-Variables-master/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Egor/Desktop/Sleeping-Barber---Mutex-and-Conditional-Variables-master/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Egor/Desktop/Sleeping-Barber---Mutex-and-Conditional-Variables-master/cmake-build-debug/CMakeFiles/Sleeping_Barber___Mutex_and_Conditional_Variables_master.dir

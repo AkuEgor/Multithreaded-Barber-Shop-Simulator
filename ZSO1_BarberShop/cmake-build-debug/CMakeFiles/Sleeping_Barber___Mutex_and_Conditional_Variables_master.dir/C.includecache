@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Egor/Desktop/Sleeping-Barber---Mutex-and-Conditional-Variables-master/main.c
+stdlib.h
+-
+stdio.h
+-
+semaphore.h
+-
+time.h
+-
+pthread.h
+-
+math.h
+-
+string.h
+-
+
