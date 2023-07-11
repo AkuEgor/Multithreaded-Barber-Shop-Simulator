@@ -1,7 +1,20 @@
-# PJAIT-ZSO
+**Project Description: Barber Shop Simulator**
 Zaawansowane systemy operacyjne / Advanced Operating Systems
 
-## ZSO 1 Task
+The barber shop simulation project aims to create a safe and multithreaded program in C or C++ that emulates the operations of a barber shop.
 
-The barber shop has three seats, three babers, a sofa for four people and a waiting room. The facility can accommodate 20 people at a one time and the client will not enter a full facility. While inside, the client sits on a sofa if it is free, or waits in the waiting room otherwise. If there is a free hairdresser, the clinet sitting on the sofa for the longest time is chosen to be cut and the customer sitting in the waiting room for the longest time. When the customer is cut, he has to pay. The fee is paid at the only cashier's office that is operated by the current free hairdresser. The barbers divide their time into cutting the clients, sleeping (in case of lack of clients) and cashier's service. The program is to end after the service of 50 people.
-Write a safe  multithreaded program in C or C++ simulating the above scenario. The program should be able to be parameterized and tested (logging  relevant messages on console).  Test it with the Valgrind tool. The description of the tool is in lecture 11. We are supposed to check memory leaks, thread blocking, etc... To write the program correctly, you must use the synchronization mechanisms described in lectures 1 - 6, i.e. mainly mutants and mandatory decision variables.  If someone has a problem with understanding the specification of the project, or with understanding the operation of these synchronization mechanisms, please contact with me. The deadline for submitting a project is given on gakko in Task Folders. In addition, the program should be written so that you can enable/disable the logging of information on the console and enable/disable artificial delays so that this logging is clearly visible.
+**Scenario:**
+- The barber shop has three seats, three barbers, a sofa for four people, and a waiting room.
+- The facility can accommodate a maximum of 20 people at a time, and clients will not enter if the facility is full.
+- Clients either occupy a free seat on the sofa or wait in the waiting room if the sofa is occupied.
+- When a barber becomes available, the client who has been sitting on the sofa for the longest time is chosen for a haircut, along with the client who has been waiting in the waiting room for the longest time.
+- After receiving a haircut, the client needs to pay the fee at the cashier's office, which is operated by the currently free barber.
+- The barbers divide their time between cutting clients, sleeping (in case of no clients), and cashier's service.
+- The program will simulate the operations until 50 people have been serviced.
+
+**Program Requirements:**
+- Develop a safe and multithreaded program in C or C++.
+- Implement parameterization and testing capabilities, with relevant messages logged to the console.
+- Test the program using the Valgrind tool to check for memory leaks, thread blocking, and other issues.
+- Utilize synchronization mechanisms, mainly focusing on mutexes and condition variables.
+- Provide options to enable/disable console logging and artificial delays for clear visibility of the logging output.
