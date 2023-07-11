@@ -1,8 +1,8 @@
-**Project Description: Barber Shop Simulator**
+# Project Description: Barber Shop Simulator
 
-Zaawansowane systemy operacyjne / Advanced Operating Systems
+*Zaawansowane systemy operacyjne / Advanced Operating Systems*
 
-# The barber shop simulation project aims to create a safe and multithreaded program in C or C++ that emulates the operations of a barber shop.
+**The barber shop simulation project aims to create a safe and multithreaded program in C or C++ that emulates the operations of a barber shop.**
 
 **Scenario:**
 - The barber shop has three seats, three barbers, a sofa for four people, and a waiting room.
